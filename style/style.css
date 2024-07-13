@@ -302,7 +302,7 @@ p{
 	left: 0;
 	top: 0;
 	width: 100%;
-	max-height: 100svh;
+	height: 100vh; /* Full viewport height */
 	overflow: auto;
 	background-color: rgba(0, 0, 0, 0.8);
 }
@@ -310,13 +310,15 @@ p{
 .lightbox-content {
 	margin: auto;
 	display: block;
-	width: 80%;
-	max-width: 700px;
-  max-height: 80%;
+	max-width: 100%; /* Maximum width 100% of viewport */
+	max-height: calc(100vh - 120px); /* Maximum height of viewport minus padding */
+	object-fit: contain; /* Ensure image fits without stretching */
 }
 
 .lightbox img {
 	width: 100%;
+	height: 100%;
+	object-fit: contain; /* Ensure image fits without stretching */
 }
 
 .lightbox .close {
@@ -344,5 +346,4 @@ p{
 	text-align: center;
 	color: #ccc;
 	padding: 10px 0;
-	height: 150px;
 }
