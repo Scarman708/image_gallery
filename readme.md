@@ -17,6 +17,13 @@ https://github.com/Scarman708/image_gallery
 - CSS
 - JavaScript
 
+## Credits
+Images are sourced from Pexels.
+
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+
 ## Project Structure
 
 ```plaintext
@@ -26,8 +33,3 @@ https://github.com/Scarman708/image_gallery
 ├── script.js
 └── README.md
 
-## Credits
-Images are sourced from Pexels.
-
-## License
-This project is licensed under the MIT License - see the LICENSE file for details.
